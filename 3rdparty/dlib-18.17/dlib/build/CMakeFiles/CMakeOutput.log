@@ -1,0 +1,488 @@
+The system is: Linux - 3.13.0-24-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3552995956/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3552995956.dir/build.make CMakeFiles/cmTryCompileExec3552995956.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3552995956.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3552995956.dir/testCCompiler.c.o   -c /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3552995956
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3552995956.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3552995956.dir/testCCompiler.c.o  -o cmTryCompileExec3552995956 -rdynamic 
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec887562169/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec887562169.dir/build.make CMakeFiles/cmTryCompileExec887562169.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec887562169.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec887562169.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec887562169
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec887562169.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec887562169.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec887562169 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec887562169' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec887562169 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec887562169.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec887562169/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec887562169.dir/build.make CMakeFiles/cmTryCompileExec887562169.dir/build]
+  ignore line: [make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec887562169.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec887562169.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec887562169]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec887562169.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec887562169.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec887562169 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec887562169' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec887562169 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec887562169.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec887562169] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec887562169.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec136201108/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec136201108.dir/build.make CMakeFiles/cmTryCompileExec136201108.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec136201108.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec136201108.dir/testCXXCompiler.cxx.o -c /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec136201108
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec136201108.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec136201108.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec136201108 -rdynamic 
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1771382767/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1771382767.dir/build.make CMakeFiles/cmTryCompileExec1771382767.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1771382767.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1771382767.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec1771382767
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1771382767.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec1771382767.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1771382767 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1771382767' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1771382767 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1771382767.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1771382767/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1771382767.dir/build.make CMakeFiles/cmTryCompileExec1771382767.dir/build]
+  ignore line: [make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1771382767.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1771382767.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec1771382767]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1771382767.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec1771382767.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1771382767 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1771382767' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1771382767 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1771382767.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1771382767] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec1771382767.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1744644126/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1744644126.dir/build.make CMakeFiles/cmTryCompileExec1744644126.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1744644126.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec1744644126.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1744644126
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1744644126.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec1744644126.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1744644126 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2287940642/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2287940642.dir/build.make CMakeFiles/cmTryCompileExec2287940642.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2287940642.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec2287940642.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2287940642
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2287940642.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec2287940642.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2287940642 -rdynamic 
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec996898253/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec996898253.dir/build.make CMakeFiles/cmTryCompileExec996898253.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec996898253.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec996898253.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec996898253
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec996898253.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec996898253.dir/CheckFunctionExists.c.o  -o cmTryCompileExec996898253 -rdynamic 
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2203263988/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2203263988.dir/build.make CMakeFiles/cmTryCompileExec2203263988.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2203263988.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec2203263988.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2203263988
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2203263988.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec2203263988.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2203263988 -rdynamic 
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4079869617/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4079869617.dir/build.make CMakeFiles/cmTryCompileExec4079869617.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4079869617.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec4079869617.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4079869617
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4079869617.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec4079869617.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4079869617 -rdynamic 
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2504528357/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2504528357.dir/build.make CMakeFiles/cmTryCompileExec2504528357.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2504528357.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec2504528357.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2504528357
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2504528357.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec2504528357.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2504528357 -rdynamic -lICE 
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function png_create_read_struct exists passed with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec311729529/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec311729529.dir/build.make CMakeFiles/cmTryCompileExec311729529.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec311729529.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=png_create_read_struct   -o CMakeFiles/cmTryCompileExec311729529.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec311729529
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec311729529.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=png_create_read_struct    CMakeFiles/cmTryCompileExec311729529.dir/CheckFunctionExists.c.o  -o cmTryCompileExec311729529 -rdynamic -lpng 
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function jpeg_read_header exists passed with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2364725931/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2364725931.dir/build.make CMakeFiles/cmTryCompileExec2364725931.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2364725931.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=jpeg_read_header   -o CMakeFiles/cmTryCompileExec2364725931.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2364725931
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2364725931.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=jpeg_read_header    CMakeFiles/cmTryCompileExec2364725931.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2364725931 -rdynamic -ljpeg 
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4053794811/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4053794811.dir/build.make CMakeFiles/cmTryCompileExec4053794811.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4053794811.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4053794811.dir/CheckIncludeFile.c.o   -c /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4053794811
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4053794811.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4053794811.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4053794811 -rdynamic 
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2058494102/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2058494102.dir/build.make CMakeFiles/cmTryCompileExec2058494102.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2058494102.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2058494102.dir/CheckIncludeFile.c.o   -c /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2058494102
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2058494102.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2058494102.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2058494102 -rdynamic 
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1065276554/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1065276554.dir/build.make CMakeFiles/cmTryCompileExec1065276554.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1065276554.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1065276554.dir/CheckIncludeFile.c.o   -c /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1065276554
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1065276554.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1065276554.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1065276554 -rdynamic 
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of void* passed with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec481918986/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec481918986.dir/build.make CMakeFiles/cmTryCompileExec481918986.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec481918986.dir/SIZE_OF_VOID_PTR.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec481918986.dir/SIZE_OF_VOID_PTR.c.o   -c /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c
+Linking C executable cmTryCompileExec481918986
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec481918986.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec481918986.dir/SIZE_OF_VOID_PTR.c.o  -o cmTryCompileExec481918986 -rdynamic -ljpeg 
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cblas_ddot exists passed with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1649989191/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1649989191.dir/build.make CMakeFiles/cmTryCompileExec1649989191.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1649989191.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cblas_ddot   -o CMakeFiles/cmTryCompileExec1649989191.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1649989191
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1649989191.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cblas_ddot    CMakeFiles/cmTryCompileExec1649989191.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1649989191 -rdynamic -lopenblas 
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler has std namespace passed with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec460655233/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec460655233.dir/build.make CMakeFiles/cmTryCompileExec460655233.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec460655233.dir/TestForSTDNamespace.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec460655233.dir/TestForSTDNamespace.cxx.o -c /usr/share/cmake-2.8/Modules/TestForSTDNamespace.cxx
+Linking CXX executable cmTryCompileExec460655233
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec460655233.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec460655233.dir/TestForSTDNamespace.cxx.o  -o cmTryCompileExec460655233 -rdynamic 
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file iostream exists passed with the following output:
+Change Dir: /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1695176097/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1695176097.dir/build.make CMakeFiles/cmTryCompileExec1695176097.dir/build
+make[1]: Entering directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1695176097.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1695176097.dir/CheckIncludeFile.cxx.o -c /home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec1695176097
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1695176097.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1695176097.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec1695176097 -rdynamic 
+make[1]: Leaving directory `/home/ren/Code/CLM/eos-master/3rdparty/dlib-18.17/dlib/build/CMakeFiles/CMakeTmp'
+
+

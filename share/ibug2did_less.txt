@@ -1,0 +1,24 @@
+; Mapping from the 68-point iBug annotations to the Surrey DID format (3DMM vertex indices).
+; Partial mapping
+; Created by: Patrik Huber, 19.04.2014
+
+landmarkMappings ; A mapping from input landmarks (iBug, lhs) to output landmarks (DID, rhs)
+{
+;	 9    35 ; 9 is not the chin tip (4) - the DID point is much higher up 是不是下巴尖    
+	18	 225 ; right eyebrow outer-corner (18)                             右眉外眼角      
+	20   233 ; right eyebrow middle (top-of-eyebrow?) (20)                 右眉中（眉上）
+	22	 157 ; right eyebrow inner-corner (top-of-eyebrow?) (19)           右眉内眼角（眉上）
+	23	 590 ; left eyebrow inner-corner (top-of-eyebrow?) (23)            左眉内侧角（眉上）
+	25   666 ; left eyebrow middle (top-of-eyebrow?) (24)                  左眉中（眉上）
+	27	 658 ; left eyebrow outer-corner (22)                              左眉外侧角
+	31   114 ; nose-tip (3)                                                鼻尖
+	34   270 ; nose-lip junction (28)                                      鼻唇交界处
+	37   177 ; right eye outer-corner (1)                                  右眼外眼角
+	40   181 ; right eye inner-corner (5)                                  右眼内眼角
+	43   614 ; left eye inner-corner (8)                                   左眼内侧角
+	46   610 ; left eye outer-corner (2)                                   左眼外眼角
+	49   398 ; right mouth corner (12)                                     右嘴角
+	52   329 ; upper lip middle top (14)                                   上嘴唇中顶
+	55   812 ; left mouth corner (13)                                      左嘴角
+	58   411 ; lower lip middle bottom (17)                                下嘴唇中底
+}
