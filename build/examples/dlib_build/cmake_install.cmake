@@ -1,4 +1,4 @@
-# Install script for directory: /home/ren/MyGit/dlib_eos/3rdparty/dlib-18.17/dlib
+# Install script for directory: /Users/keegan/Code/dlib_eos/3rdparty/dlib-18.17/dlib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -25,10 +25,5 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   else()
     set(CMAKE_INSTALL_COMPONENT)
   endif()
-endif()
-
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 

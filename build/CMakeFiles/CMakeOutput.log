@@ -1,6 +1,6 @@
-The system is: Linux - 3.13.0-74-generic - x86_64
+The system is: Darwin - 15.4.0 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/bin/cc 
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
 Build flags: 
 Id flags: 
 
@@ -10,10 +10,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/ren/MyGit/dlib_eos/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is AppleClang, found in "/Users/keegan/Code/dlib_eos/build/CMakeFiles/3.4.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/c++ 
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
 Build flags: 
 Id flags: 
 
@@ -23,154 +23,101 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/ren/MyGit/dlib_eos/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is AppleClang, found in "/Users/keegan/Code/dlib_eos/build/CMakeFiles/3.4.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5d8a2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5d8a2.dir/build.make CMakeFiles/cmTC_5d8a2.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5d8a2.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_5d8a2.dir/testCCompiler.c.o   -c /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_5d8a2
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d8a2.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_5d8a2.dir/testCCompiler.c.o  -o cmTC_5d8a2 -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_354dc/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_354dc.dir/build.make CMakeFiles/cmTC_354dc.dir/build
+Building C object CMakeFiles/cmTC_354dc.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_354dc.dir/testCCompiler.c.o   -c /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_354dc
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_354dc.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_354dc.dir/testCCompiler.c.o  -o cmTC_354dc  
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_18aef/fast"
-/usr/bin/make -f CMakeFiles/cmTC_18aef.dir/build.make CMakeFiles/cmTC_18aef.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_18aef.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_18aef.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_18aef
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18aef.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_18aef.dir/CMakeCCompilerABI.c.o  -o cmTC_18aef -rdynamic  
-Using built-in specs.
-COLLECT_GCC=/usr/bin/cc
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
-Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.5-2ubuntu1~14.04.1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Run Build Command:"/usr/bin/make" "cmTC_5b3b9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5b3b9.dir/build.make CMakeFiles/cmTC_5b3b9.dir/build
+Building C object CMakeFiles/cmTC_5b3b9.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_5b3b9.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.4.1/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_5b3b9
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b3b9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_5b3b9.dir/CMakeCCompilerABI.c.o  -o cmTC_5b3b9   
+Apple LLVM version 7.3.0 (clang-703.0.29)
+Target: x86_64-apple-darwin15.4.0
 Thread model: posix
-gcc version 4.8.5 (Ubuntu 4.8.5-2ubuntu1~14.04.1) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/ipp/../compiler/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/ipp/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/tbb/lib/intel64/gcc4.4/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_18aef' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_18aef /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/ipp/../compiler/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/ipp/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/tbb/lib/intel64/gcc4.4 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_18aef.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_5b3b9 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5b3b9.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-264.3.101
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_18aef/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_18aef.dir/build.make CMakeFiles/cmTC_18aef.dir/build]
-  ignore line: [make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_18aef.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_18aef.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_18aef]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18aef.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_18aef.dir/CMakeCCompilerABI.c.o  -o cmTC_18aef -rdynamic  ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
-  ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.5-2ubuntu1~14.04.1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5b3b9/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5b3b9.dir/build.make CMakeFiles/cmTC_5b3b9.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_5b3b9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_5b3b9.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.4.1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_5b3b9]
+  ignore line: [/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b3b9.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_5b3b9.dir/CMakeCCompilerABI.c.o  -o cmTC_5b3b9   ]
+  ignore line: [Apple LLVM version 7.3.0 (clang-703.0.29)]
+  ignore line: [Target: x86_64-apple-darwin15.4.0]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 4.8.5 (Ubuntu 4.8.5-2ubuntu1~14.04.1) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/ipp/../compiler/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/ipp/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/tbb/lib/intel64/gcc4.4/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_18aef' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_18aef /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/ipp/../compiler/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/ipp/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/tbb/lib/intel64/gcc4.4 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_18aef.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
-    arg [--sysroot=/] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [--as-needed] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-zrelro] ==> ignore
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_5b3b9 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5b3b9.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_18aef] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
-    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
-    arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64] ==> dir [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64]
-    arg [-L/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64] ==> dir [/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64]
-    arg [-L/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64] ==> dir [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64]
-    arg [-L/opt/intel/composer_xe_2013_sp1.3.174/ipp/../compiler/lib/intel64] ==> dir [/opt/intel/composer_xe_2013_sp1.3.174/ipp/../compiler/lib/intel64]
-    arg [-L/opt/intel/composer_xe_2013_sp1.3.174/ipp/lib/intel64] ==> dir [/opt/intel/composer_xe_2013_sp1.3.174/ipp/lib/intel64]
-    arg [-L/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64] ==> dir [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64]
-    arg [-L/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64] ==> dir [/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64]
-    arg [-L/opt/intel/composer_xe_2013_sp1.3.174/tbb/lib/intel64/gcc4.4] ==> dir [/opt/intel/composer_xe_2013_sp1.3.174/tbb/lib/intel64/gcc4.4]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTC_18aef.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [-lgcc] ==> lib [gcc]
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [-lc] ==> lib [c]
-    arg [-lgcc] ==> lib [gcc]
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
-  remove lib [gcc]
-  remove lib [gcc_s]
-  remove lib [gcc]
-  remove lib [gcc_s]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
-  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
-  collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64] ==> [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64]
-  collapse library dir [/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64] ==> [/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64]
-  collapse library dir [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64] ==> [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64]
-  collapse library dir [/opt/intel/composer_xe_2013_sp1.3.174/ipp/../compiler/lib/intel64] ==> [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64]
-  collapse library dir [/opt/intel/composer_xe_2013_sp1.3.174/ipp/lib/intel64] ==> [/opt/intel/composer_xe_2013_sp1.3.174/ipp/lib/intel64]
-  collapse library dir [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64] ==> [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64]
-  collapse library dir [/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64] ==> [/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64]
-  collapse library dir [/opt/intel/composer_xe_2013_sp1.3.174/tbb/lib/intel64/gcc4.4] ==> [/opt/intel/composer_xe_2013_sp1.3.174/tbb/lib/intel64/gcc4.4]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
-  implicit libs: [c]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64;/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64;/opt/intel/composer_xe_2013_sp1.3.174/ipp/lib/intel64;/opt/intel/composer_xe_2013_sp1.3.174/tbb/lib/intel64/gcc4.4]
-  implicit fwks: []
+    arg [cmTC_5b3b9] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_5b3b9.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ec25b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ec25b.dir/build.make CMakeFiles/cmTC_ec25b.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ec25b.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_ec25b.dir/feature_tests.c.o   -c /home/ren/MyGit/dlib_eos/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ec25b
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec25b.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_ec25b.dir/feature_tests.c.o  -o cmTC_ec25b -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9d32b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9d32b.dir/build.make CMakeFiles/cmTC_9d32b.dir/build
+Building C object CMakeFiles/cmTC_9d32b.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_9d32b.dir/feature_tests.c.o   -c /Users/keegan/Code/dlib_eos/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9d32b
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d32b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9d32b.dir/feature_tests.c.o  -o cmTC_9d32b  
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -180,17 +127,15 @@ make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dcea7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dcea7.dir/build.make CMakeFiles/cmTC_dcea7.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dcea7.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_dcea7.dir/feature_tests.c.o   -c /home/ren/MyGit/dlib_eos/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_dcea7
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcea7.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_dcea7.dir/feature_tests.c.o  -o cmTC_dcea7 -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_43351/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_43351.dir/build.make CMakeFiles/cmTC_43351.dir/build
+Building C object CMakeFiles/cmTC_43351.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_43351.dir/feature_tests.c.o   -c /Users/keegan/Code/dlib_eos/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_43351
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43351.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_43351.dir/feature_tests.c.o  -o cmTC_43351  
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -200,17 +145,15 @@ make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_52b41/fast"
-/usr/bin/make -f CMakeFiles/cmTC_52b41.dir/build.make CMakeFiles/cmTC_52b41.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_52b41.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_52b41.dir/feature_tests.c.o   -c /home/ren/MyGit/dlib_eos/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_52b41
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52b41.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_52b41.dir/feature_tests.c.o  -o cmTC_52b41 -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ba866/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ba866.dir/build.make CMakeFiles/cmTC_ba866.dir/build
+Building C object CMakeFiles/cmTC_ba866.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_ba866.dir/feature_tests.c.o   -c /Users/keegan/Code/dlib_eos/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ba866
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba866.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ba866.dir/feature_tests.c.o  -o cmTC_ba866  
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -218,170 +161,120 @@ make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_35238/fast"
-/usr/bin/make -f CMakeFiles/cmTC_35238.dir/build.make CMakeFiles/cmTC_35238.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_35238.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_35238.dir/testCXXCompiler.cxx.o -c /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_35238
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35238.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_35238.dir/testCXXCompiler.cxx.o  -o cmTC_35238 -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7910b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7910b.dir/build.make CMakeFiles/cmTC_7910b.dir/build
+Building CXX object CMakeFiles/cmTC_7910b.dir/testCXXCompiler.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++      -o CMakeFiles/cmTC_7910b.dir/testCXXCompiler.cxx.o -c /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_7910b
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7910b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7910b.dir/testCXXCompiler.cxx.o  -o cmTC_7910b  
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_864bf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_864bf.dir/build.make CMakeFiles/cmTC_864bf.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_864bf.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_864bf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_864bf
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_864bf.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_864bf.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_864bf -rdynamic  
-Using built-in specs.
-COLLECT_GCC=/usr/bin/c++
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
-Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.5-2ubuntu1~14.04.1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Run Build Command:"/usr/bin/make" "cmTC_13e32/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_13e32.dir/build.make CMakeFiles/cmTC_13e32.dir/build
+Building CXX object CMakeFiles/cmTC_13e32.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++      -o CMakeFiles/cmTC_13e32.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.4.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_13e32
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13e32.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_13e32.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_13e32   
+Apple LLVM version 7.3.0 (clang-703.0.29)
+Target: x86_64-apple-darwin15.4.0
 Thread model: posix
-gcc version 4.8.5 (Ubuntu 4.8.5-2ubuntu1~14.04.1) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/ipp/../compiler/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/ipp/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/tbb/lib/intel64/gcc4.4/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_864bf' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_864bf /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/ipp/../compiler/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/ipp/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/tbb/lib/intel64/gcc4.4 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_864bf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_13e32 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_13e32.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-264.3.101
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_864bf/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_864bf.dir/build.make CMakeFiles/cmTC_864bf.dir/build]
-  ignore line: [make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_864bf.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_864bf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_864bf]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_864bf.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_864bf.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_864bf -rdynamic  ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
-  ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.5-2ubuntu1~14.04.1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_13e32/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_13e32.dir/build.make CMakeFiles/cmTC_13e32.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_13e32.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++      -o CMakeFiles/cmTC_13e32.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.4.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_13e32]
+  ignore line: [/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13e32.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_13e32.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_13e32   ]
+  ignore line: [Apple LLVM version 7.3.0 (clang-703.0.29)]
+  ignore line: [Target: x86_64-apple-darwin15.4.0]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 4.8.5 (Ubuntu 4.8.5-2ubuntu1~14.04.1) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/ipp/../compiler/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/ipp/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64/:/opt/intel/composer_xe_2013_sp1.3.174/tbb/lib/intel64/gcc4.4/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_864bf' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_864bf /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/ipp/../compiler/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/ipp/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64 -L/opt/intel/composer_xe_2013_sp1.3.174/tbb/lib/intel64/gcc4.4 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_864bf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
-    arg [--sysroot=/] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [--as-needed] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-zrelro] ==> ignore
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_13e32 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_13e32.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_864bf] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
-    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
-    arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64] ==> dir [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64]
-    arg [-L/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64] ==> dir [/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64]
-    arg [-L/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64] ==> dir [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64]
-    arg [-L/opt/intel/composer_xe_2013_sp1.3.174/ipp/../compiler/lib/intel64] ==> dir [/opt/intel/composer_xe_2013_sp1.3.174/ipp/../compiler/lib/intel64]
-    arg [-L/opt/intel/composer_xe_2013_sp1.3.174/ipp/lib/intel64] ==> dir [/opt/intel/composer_xe_2013_sp1.3.174/ipp/lib/intel64]
-    arg [-L/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64] ==> dir [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64]
-    arg [-L/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64] ==> dir [/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64]
-    arg [-L/opt/intel/composer_xe_2013_sp1.3.174/tbb/lib/intel64/gcc4.4] ==> dir [/opt/intel/composer_xe_2013_sp1.3.174/tbb/lib/intel64/gcc4.4]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTC_864bf.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-    arg [-lstdc++] ==> lib [stdc++]
-    arg [-lm] ==> lib [m]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [-lc] ==> lib [c]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
-  remove lib [gcc_s]
-  remove lib [gcc]
-  remove lib [gcc_s]
-  remove lib [gcc]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
-  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
-  collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64] ==> [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64]
-  collapse library dir [/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64] ==> [/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64]
-  collapse library dir [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64] ==> [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64]
-  collapse library dir [/opt/intel/composer_xe_2013_sp1.3.174/ipp/../compiler/lib/intel64] ==> [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64]
-  collapse library dir [/opt/intel/composer_xe_2013_sp1.3.174/ipp/lib/intel64] ==> [/opt/intel/composer_xe_2013_sp1.3.174/ipp/lib/intel64]
-  collapse library dir [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64] ==> [/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64]
-  collapse library dir [/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64] ==> [/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64]
-  collapse library dir [/opt/intel/composer_xe_2013_sp1.3.174/tbb/lib/intel64/gcc4.4] ==> [/opt/intel/composer_xe_2013_sp1.3.174/tbb/lib/intel64/gcc4.4]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
-  implicit libs: [stdc++;m;c]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/opt/intel/composer_xe_2013_sp1.3.174/compiler/lib/intel64;/opt/intel/composer_xe_2013_sp1.3.174/mkl/lib/intel64;/opt/intel/composer_xe_2013_sp1.3.174/ipp/lib/intel64;/opt/intel/composer_xe_2013_sp1.3.174/tbb/lib/intel64/gcc4.4]
-  implicit fwks: []
+    arg [cmTC_13e32] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_13e32.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
 
 
 
 
-Detecting CXX [-std=c++1y] compiler features compiled with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a020c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a020c.dir/build.make CMakeFiles/cmTC_a020c.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a020c.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++1y -o CMakeFiles/cmTC_a020c.dir/feature_tests.cxx.o -c /home/ren/MyGit/dlib_eos/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_a020c
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a020c.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_a020c.dir/feature_tests.cxx.o  -o cmTC_a020c -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_001b8/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_001b8.dir/build.make CMakeFiles/cmTC_001b8.dir/build
+Building CXX object CMakeFiles/cmTC_001b8.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_001b8.dir/feature_tests.cxx.o -c /Users/keegan/Code/dlib_eos/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_001b8
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_001b8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_001b8.dir/feature_tests.cxx.o  -o cmTC_001b8  
 
 
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
     Feature record: CXX_FEATURE:1cxx_alias_templates
     Feature record: CXX_FEATURE:1cxx_alignas
     Feature record: CXX_FEATURE:1cxx_alignof
     Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
     Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_binary_literals
     Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
     Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
     Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
     Feature record: CXX_FEATURE:1cxx_default_function_template_args
     Feature record: CXX_FEATURE:1cxx_defaulted_functions
     Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
     Feature record: CXX_FEATURE:1cxx_delegating_constructors
     Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_digit_separators
     Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
     Feature record: CXX_FEATURE:1cxx_explicit_conversions
     Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
@@ -389,11 +282,11 @@ make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
     Feature record: CXX_FEATURE:1cxx_final
     Feature record: CXX_FEATURE:1cxx_func_identifier
     Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
     Feature record: CXX_FEATURE:1cxx_inheriting_constructors
     Feature record: CXX_FEATURE:1cxx_inline_namespaces
     Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
     Feature record: CXX_FEATURE:1cxx_local_type_template_args
     Feature record: CXX_FEATURE:1cxx_long_long_type
     Feature record: CXX_FEATURE:1cxx_noexcept
@@ -403,37 +296,35 @@ make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
     Feature record: CXX_FEATURE:1cxx_range_for
     Feature record: CXX_FEATURE:1cxx_raw_string_literals
     Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
     Feature record: CXX_FEATURE:1cxx_right_angle_brackets
     Feature record: CXX_FEATURE:1cxx_rvalue_references
     Feature record: CXX_FEATURE:1cxx_sizeof_member
     Feature record: CXX_FEATURE:1cxx_static_assert
     Feature record: CXX_FEATURE:1cxx_strong_enums
     Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_thread_local
     Feature record: CXX_FEATURE:1cxx_trailing_return_types
     Feature record: CXX_FEATURE:1cxx_unicode_literals
     Feature record: CXX_FEATURE:1cxx_uniform_initialization
     Feature record: CXX_FEATURE:1cxx_unrestricted_unions
     Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variable_templates
     Feature record: CXX_FEATURE:1cxx_variadic_macros
     Feature record: CXX_FEATURE:1cxx_variadic_templates
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_70e62/fast"
-/usr/bin/make -f CMakeFiles/cmTC_70e62.dir/build.make CMakeFiles/cmTC_70e62.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_70e62.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_70e62.dir/feature_tests.cxx.o -c /home/ren/MyGit/dlib_eos/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_70e62
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70e62.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_70e62.dir/feature_tests.cxx.o  -o cmTC_70e62 -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5f0d4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5f0d4.dir/build.make CMakeFiles/cmTC_5f0d4.dir/build
+Building CXX object CMakeFiles/cmTC_5f0d4.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_5f0d4.dir/feature_tests.cxx.o -c /Users/keegan/Code/dlib_eos/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5f0d4
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f0d4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5f0d4.dir/feature_tests.cxx.o  -o cmTC_5f0d4  
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -484,7 +375,7 @@ make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
     Feature record: CXX_FEATURE:1cxx_static_assert
     Feature record: CXX_FEATURE:1cxx_strong_enums
     Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_thread_local
     Feature record: CXX_FEATURE:1cxx_trailing_return_types
     Feature record: CXX_FEATURE:1cxx_unicode_literals
     Feature record: CXX_FEATURE:1cxx_uniform_initialization
@@ -496,17 +387,15 @@ make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_56cf2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_56cf2.dir/build.make CMakeFiles/cmTC_56cf2.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_56cf2.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_56cf2.dir/feature_tests.cxx.o -c /home/ren/MyGit/dlib_eos/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_56cf2
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56cf2.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_56cf2.dir/feature_tests.cxx.o  -o cmTC_56cf2 -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_fd948/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fd948.dir/build.make CMakeFiles/cmTC_fd948.dir/build
+Building CXX object CMakeFiles/cmTC_fd948.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_fd948.dir/feature_tests.cxx.o -c /Users/keegan/Code/dlib_eos/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fd948
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd948.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fd948.dir/feature_tests.cxx.o  -o cmTC_fd948  
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -566,242 +455,124 @@ make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
-Performing C++ SOURCE FILE Test HAS_CXX11_FLAG succeeded with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Performing C++ SOURCE FILE Test HAS_CXX14_FLAG succeded with the following output:
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2c663/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2c663.dir/build.make CMakeFiles/cmTC_2c663.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2c663.dir/src.cxx.o
-/usr/bin/c++     -DHAS_CXX11_FLAG   -std=c++11 -o CMakeFiles/cmTC_2c663.dir/src.cxx.o -c /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_2c663
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c663.dir/link.txt --verbose=1
-/usr/bin/c++    -DHAS_CXX11_FLAG    CMakeFiles/cmTC_2c663.dir/src.cxx.o  -o cmTC_2c663 -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d55a1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d55a1.dir/build.make CMakeFiles/cmTC_d55a1.dir/build
+Building CXX object CMakeFiles/cmTC_d55a1.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -DHAS_CXX14_FLAG   -std=c++14 -o CMakeFiles/cmTC_d55a1.dir/src.cxx.o -c /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d55a1
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d55a1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -DHAS_CXX14_FLAG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d55a1.dir/src.cxx.o  -o cmTC_d55a1  
 
 Source file was:
 int main() { return 0; }
-Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_53c17/fast"
-/usr/bin/make -f CMakeFiles/cmTC_53c17.dir/build.make CMakeFiles/cmTC_53c17.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_53c17.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_53c17.dir/CheckIncludeFile.c.o   -c /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_53c17
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53c17.dir/link.txt --verbose=1
-/usr/bin/cc  -fPIC     CMakeFiles/cmTC_53c17.dir/CheckIncludeFile.c.o  -o cmTC_53c17 -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-
-
-Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_a6d4a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a6d4a.dir/build.make CMakeFiles/cmTC_a6d4a.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a6d4a.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a6d4a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a6d4a
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6d4a.dir/link.txt --verbose=1
-/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a6d4a.dir/CheckFunctionExists.c.o  -o cmTC_a6d4a -rdynamic -lpthread 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-
-
-Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_a4140/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a4140.dir/build.make CMakeFiles/cmTC_a4140.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a4140.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_a4140.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a4140
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4140.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_a4140.dir/CheckFunctionExists.c.o  -o cmTC_a4140 -rdynamic /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-
-
-Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_5590e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5590e.dir/build.make CMakeFiles/cmTC_5590e.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5590e.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_5590e.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5590e
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5590e.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_5590e.dir/CheckFunctionExists.c.o  -o cmTC_5590e -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-
-
-Determining if the function connect exists passed with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_31b47/fast"
-/usr/bin/make -f CMakeFiles/cmTC_31b47.dir/build.make CMakeFiles/cmTC_31b47.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_31b47.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_31b47.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_31b47
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31b47.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_31b47.dir/CheckFunctionExists.c.o  -o cmTC_31b47 -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-
-
-Determining if the function remove exists passed with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_3d91b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3d91b.dir/build.make CMakeFiles/cmTC_3d91b.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3d91b.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_3d91b.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_3d91b
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d91b.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_3d91b.dir/CheckFunctionExists.c.o  -o cmTC_3d91b -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-
-
-Determining if the function shmat exists passed with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_6647a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6647a.dir/build.make CMakeFiles/cmTC_6647a.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6647a.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_6647a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_6647a
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6647a.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_6647a.dir/CheckFunctionExists.c.o  -o cmTC_6647a -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-
-
-Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_d4926/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d4926.dir/build.make CMakeFiles/cmTC_d4926.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d4926.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_d4926.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d4926
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4926.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_d4926.dir/CheckFunctionExists.c.o  -o cmTC_d4926 -rdynamic -lICE 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-
-
 Determining if the function png_create_read_struct exists passed with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ee983/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ee983.dir/build.make CMakeFiles/cmTC_ee983.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ee983.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=png_create_read_struct   -o CMakeFiles/cmTC_ee983.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ee983
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee983.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=png_create_read_struct    CMakeFiles/cmTC_ee983.dir/CheckFunctionExists.c.o  -o cmTC_ee983 -rdynamic /usr/lib/x86_64-linux-gnu/libpng.so 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_54dd9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_54dd9.dir/build.make CMakeFiles/cmTC_54dd9.dir/build
+Building C object CMakeFiles/cmTC_54dd9.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=png_create_read_struct   -o CMakeFiles/cmTC_54dd9.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.4.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_54dd9
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54dd9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=png_create_read_struct -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_54dd9.dir/CheckFunctionExists.c.o  -o cmTC_54dd9  /usr/local/lib/libpng.dylib 
 
 
 Determining if the function jpeg_read_header exists passed with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d81f9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d81f9.dir/build.make CMakeFiles/cmTC_d81f9.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d81f9.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=jpeg_read_header   -o CMakeFiles/cmTC_d81f9.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d81f9
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d81f9.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=jpeg_read_header    CMakeFiles/cmTC_d81f9.dir/CheckFunctionExists.c.o  -o cmTC_d81f9 -rdynamic /usr/lib/x86_64-linux-gnu/libjpeg.so 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_71c5f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_71c5f.dir/build.make CMakeFiles/cmTC_71c5f.dir/build
+Building C object CMakeFiles/cmTC_71c5f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=jpeg_read_header   -o CMakeFiles/cmTC_71c5f.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.4.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_71c5f
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71c5f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=jpeg_read_header -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_71c5f.dir/CheckFunctionExists.c.o  -o cmTC_71c5f  /usr/local/lib/libjpeg.dylib 
 
 
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b8762/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b8762.dir/build.make CMakeFiles/cmTC_b8762.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b8762.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_b8762.dir/CheckIncludeFile.c.o   -c /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_b8762
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8762.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_b8762.dir/CheckIncludeFile.c.o  -o cmTC_b8762 -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_12f9a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_12f9a.dir/build.make CMakeFiles/cmTC_12f9a.dir/build
+Building C object CMakeFiles/cmTC_12f9a.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_12f9a.dir/CheckIncludeFile.c.o   -c /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_12f9a
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12f9a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_12f9a.dir/CheckIncludeFile.c.o  -o cmTC_12f9a  
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_02159/fast"
-/usr/bin/make -f CMakeFiles/cmTC_02159.dir/build.make CMakeFiles/cmTC_02159.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_02159.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_02159.dir/CheckIncludeFile.c.o   -c /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_02159
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02159.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_02159.dir/CheckIncludeFile.c.o  -o cmTC_02159 -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3a3a1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3a3a1.dir/build.make CMakeFiles/cmTC_3a3a1.dir/build
+Building C object CMakeFiles/cmTC_3a3a1.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_3a3a1.dir/CheckIncludeFile.c.o   -c /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3a3a1
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a3a1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3a3a1.dir/CheckIncludeFile.c.o  -o cmTC_3a3a1  
 
 
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ec018/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ec018.dir/build.make CMakeFiles/cmTC_ec018.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ec018.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_ec018.dir/CheckIncludeFile.c.o   -c /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_ec018
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec018.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_ec018.dir/CheckIncludeFile.c.o  -o cmTC_ec018 -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0632e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0632e.dir/build.make CMakeFiles/cmTC_0632e.dir/build
+Building C object CMakeFiles/cmTC_0632e.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_0632e.dir/CheckIncludeFile.c.o   -c /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0632e
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0632e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0632e.dir/CheckIncludeFile.c.o  -o cmTC_0632e  
 
 
 Determining size of void* passed with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cac57/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cac57.dir/build.make CMakeFiles/cmTC_cac57.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cac57.dir/SIZE_OF_VOID_PTR.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_cac57.dir/SIZE_OF_VOID_PTR.c.o   -c /home/ren/MyGit/dlib_eos/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c
-Linking C executable cmTC_cac57
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cac57.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_cac57.dir/SIZE_OF_VOID_PTR.c.o  -o cmTC_cac57 -rdynamic /usr/lib/x86_64-linux-gnu/libjpeg.so 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_fb158/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fb158.dir/build.make CMakeFiles/cmTC_fb158.dir/build
+Building C object CMakeFiles/cmTC_fb158.dir/SIZE_OF_VOID_PTR.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_fb158.dir/SIZE_OF_VOID_PTR.c.o   -c /Users/keegan/Code/dlib_eos/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c
+Linking C executable cmTC_fb158
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb158.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fb158.dir/SIZE_OF_VOID_PTR.c.o  -o cmTC_fb158  /usr/local/lib/libjpeg.dylib 
+
+
+Determining if the function cblas_ddot exists passed with the following output:
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d047/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0d047.dir/build.make CMakeFiles/cmTC_0d047.dir/build
+Building C object CMakeFiles/cmTC_0d047.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=cblas_ddot   -o CMakeFiles/cmTC_0d047.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.4.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0d047
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d047.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cblas_ddot -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0d047.dir/CheckFunctionExists.c.o  -o cmTC_0d047  /usr/lib/libcblas.dylib 
 
 
 Determining if the CXX compiler has std namespace passed with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6516b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6516b.dir/build.make CMakeFiles/cmTC_6516b.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6516b.dir/TestForSTDNamespace.cxx.o
-/usr/bin/c++     -std=c++11 -Wreturn-type    -o CMakeFiles/cmTC_6516b.dir/TestForSTDNamespace.cxx.o -c /usr/local/share/cmake-3.5/Modules/TestForSTDNamespace.cxx
-Linking CXX executable cmTC_6516b
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6516b.dir/link.txt --verbose=1
-/usr/bin/c++    -std=c++11 -Wreturn-type     CMakeFiles/cmTC_6516b.dir/TestForSTDNamespace.cxx.o  -o cmTC_6516b -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_cb347/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cb347.dir/build.make CMakeFiles/cmTC_cb347.dir/build
+Building CXX object CMakeFiles/cmTC_cb347.dir/TestForSTDNamespace.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -std=c++14    -o CMakeFiles/cmTC_cb347.dir/TestForSTDNamespace.cxx.o -c /usr/local/Cellar/cmake/3.4.1/share/cmake/Modules/TestForSTDNamespace.cxx
+Linking CXX executable cmTC_cb347
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb347.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++14  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cb347.dir/TestForSTDNamespace.cxx.o  -o cmTC_cb347  
 
 
 Determining if the include file iostream exists passed with the following output:
-Change Dir: /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cd1f4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cd1f4.dir/build.make CMakeFiles/cmTC_cd1f4.dir/build
-make[1]: Entering directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cd1f4.dir/CheckIncludeFile.cxx.o
-/usr/bin/c++     -std=c++11 -Wreturn-type    -o CMakeFiles/cmTC_cd1f4.dir/CheckIncludeFile.cxx.o -c /home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_cd1f4
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd1f4.dir/link.txt --verbose=1
-/usr/bin/c++    -std=c++11 -Wreturn-type     CMakeFiles/cmTC_cd1f4.dir/CheckIncludeFile.cxx.o  -o cmTC_cd1f4 -rdynamic 
-make[1]: Leaving directory `/home/ren/MyGit/dlib_eos/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_bce2a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bce2a.dir/build.make CMakeFiles/cmTC_bce2a.dir/build
+Building CXX object CMakeFiles/cmTC_bce2a.dir/CheckIncludeFile.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -std=c++14    -o CMakeFiles/cmTC_bce2a.dir/CheckIncludeFile.cxx.o -c /Users/keegan/Code/dlib_eos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_bce2a
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bce2a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++14  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bce2a.dir/CheckIncludeFile.cxx.o  -o cmTC_bce2a  
 
 

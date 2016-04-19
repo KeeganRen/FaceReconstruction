@@ -7096,7 +7096,7 @@ vector
 platform.h
 ../3rdparty/dlib-18.17/dlib/platform.h
 
-/home/ren/MyGit/dlib_eos/examples/face_landmark_detection_ex.cpp
+/Users/keegan/Code/dlib_eos/examples/face_landmark_detection_ex.cpp
 dlib/image_processing/frontal_face_detector.h
 -
 dlib/image_processing/render_face_detections.h
@@ -7109,4 +7109,34 @@ dlib/image_io.h
 -
 iostream
 -
+
+/usr/local/include/jpeglib.h
+jconfig.h
+/usr/local/include/jconfig.h
+jmorecfg.h
+/usr/local/include/jmorecfg.h
+jpegint.h
+/usr/local/include/jpegint.h
+jerror.h
+/usr/local/include/jerror.h
+
+/usr/local/include/png.h
+pnglibconf.h
+/usr/local/include/pnglibconf.h
+pngconf.h
+/usr/local/include/pngconf.h
+
+/usr/local/include/pngconf.h
+limits.h
+-
+stddef.h
+-
+stdio.h
+-
+setjmp.h
+-
+time.h
+-
+
+/usr/local/include/pnglibconf.h
 

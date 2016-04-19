@@ -25,14 +25,6 @@ else(Boost_FOUND)
   message(FATAL_ERROR "Boost not found")
 endif()
 
-# Model fitting (affine cam & shape to landmarks) example:
-add_executable(fit-model fit-model.cpp)
-target_link_libraries(fit-model ${OpenCV_LIBS} ${Boost_LIBRARIES})
-
-# Converts a CVSSP .scm Morphable Model to a cereal binary file:
-add_executable(scm-to-cereal scm-to-cereal.cpp)
-target_link_libraries(scm-to-cereal ${OpenCV_LIBS} ${Boost_LIBRARIES})
-
 # Keegan.Ren
 #### dlib-begin
 include(../3rdparty/dlib-18.17/dlib/cmake)
@@ -54,6 +46,23 @@ if (OpenCV_FOUND)
    ADD_EXECUTABLE(webcam_face_fit_model_keegan webcam_face_fit_model_keegan.cpp)
    TARGET_LINK_LIBRARIES(webcam_face_fit_model_keegan dlib ${OpenCV_LIBS} ${Boost_LIBRARIES})
 endif()
+
+# Model fitting (affine cam & shape to landmarks) example:
+if (OpenCV_FOUND)
+   include_directories(${OpenCV_INCLUDE_DIRS})
+   
+   add_executable(fit-model fit-model.cpp)
+   target_link_libraries(fit-model ${OpenCV_LIBS} ${Boost_LIBRARIES})
+endif()
+
+# Converts a CVSSP .scm Morphable Model to a cereal binary file:
+if (OpenCV_FOUND)
+   include_directories(${OpenCV_INCLUDE_DIRS})
+   
+   add_executable(scm-to-cereal scm-to-cereal.cpp)
+   target_link_libraries(scm-to-cereal ${OpenCV_LIBS} ${Boost_LIBRARIES})
+endif()
+
 #### dlib-end
 
 # install target:
