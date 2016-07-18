@@ -1,2 +1,16 @@
 # dlib_eos
-使用dlib进行人脸检测，对检测到的人脸使用eos进行三维重建
+Facial Landmark Detection, head pose and Real time Face Reconstruction
+#
+## Functionality
+
+- Facial Landmark Detection
+
+![Sample facial landmark detection image](https://github.com/KeeganRen/dlib_eos/tree/master/imgs/FaceLandmark.png)
+
+![Sample facial landmark detection image](https://github.com/KeeganRen/dlib_eos/tree/master/imgs/Face.png)
+
+- Face Reconstruction
+
+![ Face Reconstruction image](https://github.com/KeeganRen/dlib_eos/tree/master/imgs/KeeganRen1.png)
+
+![ Face Reconstruction image](https://github.com/KeeganRen/dlib_eos/tree/master/imgs/KeeganRen1.png)
