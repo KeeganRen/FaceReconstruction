@@ -13,6 +13,11 @@ eos is a lightweight 3D Morphable Face Model fitting library that provides just 
 
 github: https://github.com/patrikhuber/eos
 
+## 4dface
+Real-time 3D face tracking and reconstruction from 2D video
+
+github: https://github.com/patrikhuber/4dface
+
 ## Functionality
 
 - Facial Landmark Detection
