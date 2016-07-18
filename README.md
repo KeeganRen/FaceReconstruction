@@ -13,10 +13,10 @@ github: https://github.com/patrikhuber/eos
 
 - Facial Landmark Detection
 
-<img src="https://github.com/KeeganRen/dlib_eos/tree/master/imgs/FaceLandmark.png" height="382" width="222" >
-<img src="https://github.com/KeeganRen/dlib_eos/tree/master/imgs/Face.png" height="382" width="222" >
+<img src="https://github.com/KeeganRen/dlib_eos/blob/master/imgs/FaceLandmark.png" height="382" width="222" >
+<img src="https://github.com/KeeganRen/dlib_eos/blob/master/imgs/Face.png" height="382" width="222" >
 
 - Face Reconstruction
 
-<img src="https://github.com/KeeganRen/dlib_eos/tree/master/imgs/KeeganRen1.png" height="382" width="222" >
-<img src="https://github.com/KeeganRen/dlib_eos/tree/master/imgs/KeeganRen2.png" height="382" width="222" >
+<img src="https://github.com/KeeganRen/dlib_eos/blob/master/imgs/KeeganRen1.png" height="382" width="222" >
+<img src="https://github.com/KeeganRen/dlib_eos/blob/master/imgs/KeeganRen2.png" height="382" width="222" >
