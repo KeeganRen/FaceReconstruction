@@ -27,12 +27,7 @@ github: https://github.com/patrikhuber/4dface
 
 - Face Reconstruction
 
-<img src="https://github.com/KeeganRen/FaceReconstruction/blob/master/imgs/image.png" height="240" width="250" >
-<img src="https://github.com/KeeganRen/FaceReconstruction/blob/master/imgs/image.isomap.png" height="240" width="250" >
-<img src="https://github.com/KeeganRen/FaceReconstruction/blob/master/imgs/image.3dpts.png" height="240" width="250" >
-<img src="https://github.com/KeeganRen/FaceReconstruction/blob/master/imgs/image.3dpts.line.png" height="240" width="250" >
+<img src="https://github.com/KeeganRen/FaceReconstruction/blob/master/imgs/image.png" height="240" width="250" ><img src="https://github.com/KeeganRen/FaceReconstruction/blob/master/imgs/image.isomap.png" height="240" width="250" ><img src="https://github.com/KeeganRen/FaceReconstruction/blob/master/imgs/image.3dpts.png" height="240" width="250" >
 
-<img src="https://github.com/KeeganRen/FaceReconstruction/blob/master/imgs/image.3dface1.png" height="240" width="250" >
-<img src="https://github.com/KeeganRen/FaceReconstruction/blob/master/imgs/image.3dface2.png" height="240" width="250" >
-<img src="https://github.com/KeeganRen/FaceReconstruction/blob/master/imgs/image.3dface3.png" height="240" width="250" >
-<img src="https://github.com/KeeganRen/FaceReconstruction/blob/master/imgs/image.3dface4.png" height="240" width="250" >
+<img src="https://github.com/KeeganRen/FaceReconstruction/blob/master/imgs/image.3dpts.line.png" height="240" width="250" ><img src="https://github.com/KeeganRen/FaceReconstruction/blob/master/imgs/image.3dface1.png" height="240" width="250" ><img src="https://github.com/KeeganRen/FaceReconstruction/blob/master/imgs/image.3dface2.png" height="240" width="250" >
+<img src="https://github.com/KeeganRen/FaceReconstruction/blob/master/imgs/image.3dface3.png" height="240" width="250" ><img src="https://github.com/KeeganRen/FaceReconstruction/blob/master/imgs/image.3dface4.png" height="240" width="250" >
